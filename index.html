@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRISPYO - Menu Digital</title>
+  <meta name="description" content="Menu digital officiel CRISPYO : Petits-déjeuners, Boissons & Rafraîchissements, Lunch & Fast Food, Desserts." />
+  <meta property="og:title" content="CRISPYO - Menu Digital" />
+  <meta property="og:description" content="Menu digital officiel CRISPYO : Petits-déjeuners, Boissons & Rafraîchissements, Lunch & Fast Food, Desserts." />
+  <meta property="og:type" content="website" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="menu-container">
+
+      <!-- ================= 1. HEADER ================= -->
+      <header class="site-header" id="site-header">
+        <!-- Menu Button / Quick Category Drawer Toggle -->
+        <button class="icon-circle-btn" id="btn-hamburger" aria-label="Menu de navigation">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2.5" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+
+        <!-- CRISPYO Redesigned Premium Logo -->
+        <div class="brand-logo" id="brand-logo">
+          <div class="logo-mark">
+            <svg class="crispyo-c-logo" viewBox="0 0 100 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Smooth Dynamic Speed / Motion Lines -->
+              <rect x="2" y="16" width="22" height="4" rx="2" fill="#126BEB" />
+              <rect x="8" y="25" width="20" height="4" rx="2" fill="#126BEB" />
+              <rect x="0" y="34" width="30" height="4.5" rx="2.25" fill="#126BEB" />
+              <rect x="8" y="43" width="22" height="4" rx="2" fill="#126BEB" />
+              <rect x="14" y="52" width="16" height="3.5" rx="1.75" fill="#126BEB" />
+              
+              <!-- Bold Geometric Stylized Blue "C" with Balanced Arc -->
+              <path d="M68 6 C47 6 32 20 32 36 C32 52 47 66 68 66 C78 66 86 62 92 57 L85 47 C80 51 75 54 68 54 C55 54 46 45 46 36 C46 27 55 18 68 18 C75 18 80 21 85 25 L92 15 C86 10 78 6 68 6 Z" fill="#126BEB" />
+              <circle cx="78" cy="11" r="3.5" fill="#126BEB" />
+            </svg>
+          </div>
+          <h1 class="brand-title">CRISPYO</h1>
+          <div class="brand-tagline">
+            <span class="tag-line-left"></span>
+            <span class="tag-text">GOOD FOOD • GOOD MOOD</span>
+            <span class="tag-line-right"></span>
+          </div>
+        </div>
+
+        <!-- Status Card -->
+        <div class="status-badge" id="status-badge">
+          <div class="status-clock-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <div class="status-text-wrap">
+            <span class="status-open">Ouvert</span>
+            <span class="status-hours">08:00 - 23:00</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Quick Nav Floating Dropdown (Mobile) -->
+      <nav class="quick-nav-menu" id="quick-nav-menu" aria-label="Navigation rapide">
+        <button class="quick-nav-link active" data-target="section-breakfast">🥐 Petit-Déjeuner</button>
+        <button class="quick-nav-link" data-target="section-boissons">☕ Boissons & Rafraîchissements</button>
+        <button class="quick-nav-link" data-target="section-lunch">🍔 Lunch & Fast Food</button>
+        <button class="quick-nav-link" data-target="section-desserts">🍰 Desserts</button>
+      </nav>
+
+      <!-- ================= 2. HERO SECTION ================= -->
+      <section class="hero-section" id="hero-section">
+        <div class="hero-left-content">
+          <!-- Handwritten Welcome -->
+          <span class="welcome-text">Bienvenue chez</span>
+
+          <!-- Hero Brand Title -->
+          <h2 class="hero-main-title">CRISPYO</h2>
+
+          <!-- Hero Subtitle -->
+          <h3 class="hero-subtitle">Good Food <span class="blue-bullet">•</span> Good Mood</h3>
+
+          <!-- Hero Paragraph -->
+          <p class="hero-description">
+            Une carte gourmande pour tous les goûts,<br />
+            préparée avec des ingrédients frais<br />
+            et beaucoup de passion.
+          </p>
+
+          <!-- Chef Hat Divider -->
+          <div class="chef-divider">
+            <span class="divider-line"></span>
+            <div class="chef-hat-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"></path>
+                <line x1="6" y1="17" x2="18" y2="17"></line>
+              </svg>
+            </div>
+            <span class="divider-line"></span>
+          </div>
+        </div>
+
+        <div class="hero-right-image">
+          <img src="/images/hero_burger.jpg" alt="Crispy Chicken Burger CRISPYO" class="hero-burger-img" loading="eager" referrerPolicy="no-referrer" />
+        </div>
+      </section>
+
+      <!-- ================= 3. FOUR FUNCTIONAL CATEGORY CARDS ================= -->
+      <nav class="categories-section" id="categories-section" aria-label="Catégories du menu">
+        <!-- Card 1: Petit-Déjeuner -->
+        <button class="category-card active-category" id="cat-card-breakfast" data-target="section-breakfast">
+          <div class="cat-img-wrapper">
+            <img src="/images/cat_breakfast.jpg" alt="Petit-déjeuner" class="cat-img" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+            <div class="cat-badge-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v2"></path>
+                <path d="M4.93 4.93l1.41 1.41"></path>
+                <path d="M20 12h2"></path>
+                <path d="M2 12h2"></path>
+                <path d="M17.66 6.34l1.41-1.41"></path>
+                <path d="M16 12a4 4 0 1 0-8 0"></path>
+                <path d="M4 18h16"></path>
+                <path d="M7 22h10"></path>
+              </svg>
+            </div>
+          </div>
+          <h4 class="cat-title">PETIT-DÉJEUNER</h4>
+        </button>
+
+        <!-- Card 2: Boissons -->
+        <button class="category-card" id="cat-card-drinks" data-target="section-boissons">
+          <div class="cat-img-wrapper">
+            <img src="/images/cat_boissons.jpg" alt="Boissons" class="cat-img" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+            <div class="cat-badge-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 8h1a4 4 0 1 1 0 8h-1"></path>
+                <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
+                <line x1="6" y1="2" x2="6" y2="4"></line>
+                <line x1="10" y1="2" x2="10" y2="4"></line>
+                <line x1="14" y1="2" x2="14" y2="4"></line>
+              </svg>
+            </div>
+          </div>
+          <h4 class="cat-title">BOISSONS</h4>
+        </button>
+
+        <!-- Card 3: Lunch & Fast Food -->
+        <button class="category-card" id="cat-card-lunch" data-target="section-lunch">
+          <div class="cat-img-wrapper">
+            <img src="/images/cat_lunch.jpg" alt="Lunch & Fast Food" class="cat-img" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+            <div class="cat-badge-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 11h.01"></path>
+                <path d="M11 15h.01"></path>
+                <path d="M16 16h.01"></path>
+                <path d="m2 16 14.5-14.5a2.12 2.12 0 0 1 3 3L5 19l-3-3Z"></path>
+                <path d="m2 16 17 3a2 2 0 0 0 2-2L18 3"></path>
+              </svg>
+            </div>
+          </div>
+          <h4 class="cat-title">LUNCH & FAST FOOD</h4>
+        </button>
+
+        <!-- Card 4: Desserts -->
+        <button class="category-card" id="cat-card-desserts" data-target="section-desserts">
+          <div class="cat-img-wrapper">
+            <img src="/images/cat_desserts.jpg" alt="Desserts" class="cat-img" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+            <div class="cat-badge-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path>
+                <path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"></path>
+                <path d="M2 21h20"></path>
+                <path d="M12 3v4"></path>
+                <path d="M10 7h4"></path>
+              </svg>
+            </div>
+          </div>
+          <h4 class="cat-title">DESSERTS</h4>
+        </button>
+      </nav>
+
+      <!-- ================================================================= -->
+      <!-- ================= SECTION 1: PETIT-DÉJEUNER ===================== -->
+      <!-- ================================================================= -->
+      <section class="menu-main-section" id="section-breakfast">
+        <!-- Section Heading Bar -->
+        <div class="section-heading-bar" id="section-formules-bar">
+          <div class="heading-left">
+            <div class="handwritten-subtitle">
+              <span>Petit-déjeuner</span>
+              <svg class="curly-arrow" width="30" height="20" viewBox="0 0 40 20" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round">
+                <path d="M2 15 C15 5, 25 5, 36 12"></path>
+                <path d="M30 6 L37 12 L33 18"></path>
+              </svg>
+            </div>
+            <h3 class="section-title">Nos Formules</h3>
+            <span class="title-underline"></span>
+          </div>
+
+          <div class="heading-right">
+            <button class="btn-a-la-carte" id="btn-a-la-carte" aria-expanded="false" aria-controls="alacarte-content-box">
+              <svg class="star-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span>☆ À LA CARTE</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 6 BREAKFAST FORMULAS GRID -->
+        <div class="breakfast-grid" id="breakfast-cards-grid">
+          <!-- CARD 1: Continental Breakfast -->
+          <article class="formula-card" id="card-continental">
+            <div class="formula-img-col">
+              <img src="/images/bf_continental.jpg" alt="Continental Breakfast" class="formula-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="formula-flag-badge" title="France">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="11" fill="#126BEB" />
+                  <circle cx="12" cy="12" r="10" stroke="#FFFFFF" stroke-width="1.2" />
+                  <path d="M12 2 C7 2 3 6.5 3 12 C3 17.5 7 22 12 22 C17 22 21 17.5 21 12 C21 6.5 17 2 12 2 Z" stroke="#FFFFFF" stroke-width="1.2" fill="none" />
+                  <line x1="2" y1="12" x2="22" y2="12" stroke="#FFFFFF" stroke-width="1.2" />
+                  <path d="M4 7 C7 8.5 17 8.5 20 7" stroke="#FFFFFF" stroke-width="1.2" fill="none" />
+                  <path d="M4 17 C7 15.5 17 15.5 20 17" stroke="#FFFFFF" stroke-width="1.2" fill="none" />
+                  <ellipse cx="12" cy="12" rx="4.5" ry="10" stroke="#FFFFFF" stroke-width="1.2" fill="none" />
+                </svg>
+              </div>
+            </div>
+            <div class="formula-info-col">
+              <h4 class="formula-name">CONTINENTAL<br />BREAKFAST</h4>
+              <ul class="formula-items">
+                <li>Croissant</li>
+                <li>Pain aux raisins</li>
+                <li>Beurre + confiture</li>
+                <li>Jus d'orange</li>
+                <li>Café</li>
+              </ul>
+              <div class="formula-price-box">
+                <span class="price-val">35 DH</span>
+                <span class="price-underline"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2: American Breakfast -->
+          <article class="formula-card" id="card-american">
+            <div class="formula-img-col">
+              <img src="/images/bf_american.jpg" alt="American Breakfast" class="formula-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="formula-flag-badge" title="United States">
+                <svg width="22" height="22" viewBox="0 0 24 24">
+                  <clipPath id="circle-clip-us">
+                    <circle cx="12" cy="12" r="11" />
+                  </clipPath>
+                  <g clip-path="url(#circle-clip-us)">
+                    <rect width="24" height="24" fill="#B22234" />
+                    <rect y="3.7" width="24" height="3.7" fill="#FFFFFF" />
+                    <rect y="11.1" width="24" height="3.7" fill="#FFFFFF" />
+                    <rect y="18.5" width="24" height="3.7" fill="#FFFFFF" />
+                    <rect width="11" height="13" fill="#3C3B6E" />
+                    <circle cx="3" cy="3" r="0.9" fill="#FFFFFF" />
+                    <circle cx="8" cy="3" r="0.9" fill="#FFFFFF" />
+                    <circle cx="5.5" cy="6.5" r="0.9" fill="#FFFFFF" />
+                    <circle cx="3" cy="10" r="0.9" fill="#FFFFFF" />
+                    <circle cx="8" cy="10" r="0.9" fill="#FFFFFF" />
+                  </g>
+                  <circle cx="12" cy="12" r="11" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+                </svg>
+              </div>
+            </div>
+            <div class="formula-info-col">
+              <h4 class="formula-name">AMERICAN<br />BREAKFAST</h4>
+              <ul class="formula-items">
+                <li>Œuf au plat</li>
+                <li>Merguez</li>
+                <li>Pancake</li>
+                <li>Toast</li>
+                <li>Beurre + miel</li>
+                <li>Jus d'orange</li>
+                <li>Café</li>
+              </ul>
+              <div class="formula-price-box">
+                <span class="price-val">45 DH</span>
+                <span class="price-underline"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3: Norwegian Breakfast -->
+          <article class="formula-card" id="card-norwegian">
+            <div class="formula-img-col">
+              <img src="/images/bf_norwegian.jpg" alt="Norwegian Breakfast" class="formula-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="formula-flag-badge" title="Norway">
+                <svg width="22" height="22" viewBox="0 0 24 24">
+                  <clipPath id="circle-clip-no">
+                    <circle cx="12" cy="12" r="11" />
+                  </clipPath>
+                  <g clip-path="url(#circle-clip-no)">
+                    <rect width="24" height="24" fill="#BA0C2F" />
+                    <rect x="7" width="5" height="24" fill="#FFFFFF" />
+                    <rect y="9.5" width="24" height="5" fill="#FFFFFF" />
+                    <rect x="8.25" width="2.5" height="24" fill="#00205B" />
+                    <rect y="10.75" width="24" height="2.5" fill="#00205B" />
+                  </g>
+                  <circle cx="12" cy="12" r="11" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+                </svg>
+              </div>
+            </div>
+            <div class="formula-info-col">
+              <h4 class="formula-name">NORWEGIAN<br />BREAKFAST</h4>
+              <ul class="formula-items">
+                <li>Omelette nature</li>
+                <li>Avocado toast</li>
+                <li>Granola & yaourt</li>
+                <li>Miel & fromage</li>
+                <li>Jus d'orange</li>
+                <li>Café</li>
+              </ul>
+              <div class="formula-price-box">
+                <span class="price-val">45 DH</span>
+                <span class="price-underline"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4: Spanish Breakfast -->
+          <article class="formula-card" id="card-spanish">
+            <div class="formula-img-col">
+              <img src="/images/bf_spanish.jpg" alt="Spanish Breakfast" class="formula-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="formula-flag-badge" title="Spain">
+                <svg width="22" height="22" viewBox="0 0 24 24">
+                  <clipPath id="circle-clip-es">
+                    <circle cx="12" cy="12" r="11" />
+                  </clipPath>
+                  <g clip-path="url(#circle-clip-es)">
+                    <rect width="24" height="6" fill="#AA151B" />
+                    <rect y="6" width="24" height="12" fill="#F1BF00" />
+                    <rect y="18" width="24" height="6" fill="#AA151B" />
+                    <rect x="5" y="9.5" width="3.5" height="5" rx="1.5" fill="#AA151B" />
+                  </g>
+                  <circle cx="12" cy="12" r="11" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+                </svg>
+              </div>
+            </div>
+            <div class="formula-info-col">
+              <h4 class="formula-name">SPANISH<br />BREAKFAST</h4>
+              <ul class="formula-items">
+                <li>Tortilla</li>
+                <li>Pan con tomate</li>
+                <li>Huile d'olive</li>
+                <li>Fromage thym</li>
+                <li>Jus d'orange</li>
+                <li>Café</li>
+              </ul>
+              <div class="formula-price-box">
+                <span class="price-val">45 DH</span>
+                <span class="price-underline"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 5: Moroccan Breakfast -->
+          <article class="formula-card" id="card-moroccan">
+            <div class="formula-img-col">
+              <img src="/images/bf_moroccan.jpg" alt="Moroccan Breakfast" class="formula-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="formula-flag-badge" title="Morocco">
+                <svg width="22" height="22" viewBox="0 0 24 24">
+                  <clipPath id="circle-clip-ma">
+                    <circle cx="12" cy="12" r="11" />
+                  </clipPath>
+                  <g clip-path="url(#circle-clip-ma)">
+                    <rect width="24" height="24" fill="#C1272D" />
+                    <polygon points="12,5 14.1,11.5 20.9,11.5 15.4,15.5 17.5,22 12,18 6.5,22 8.6,15.5 3.1,11.5 9.9,11.5" fill="none" stroke="#006233" stroke-width="1.8" stroke-linejoin="round" />
+                  </g>
+                  <circle cx="12" cy="12" r="11" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+                </svg>
+              </div>
+            </div>
+            <div class="formula-info-col">
+              <h4 class="formula-name">MOROCCAN<br />BREAKFAST</h4>
+              <ul class="formula-items">
+                <li>Omelette khlii</li>
+                <li>Msemen</li>
+                <li>Amlou + huile d'olive</li>
+                <li>Beurre + confiture</li>
+                <li>Jus d'orange</li>
+                <li>Thé à la menthe</li>
+              </ul>
+              <div class="formula-price-box">
+                <span class="price-val">49 DH</span>
+                <span class="price-underline"></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 6: Kids Breakfast -->
+          <article class="formula-card" id="card-kids">
+            <div class="formula-img-col">
+              <img src="/images/bf_kids.jpg" alt="Kids Breakfast" class="formula-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="formula-flag-badge" title="Kids">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="11" fill="#126BEB" />
+                  <circle cx="8.5" cy="9.5" r="1.5" fill="#FFFFFF" />
+                  <circle cx="15.5" cy="9.5" r="1.5" fill="#FFFFFF" />
+                  <path d="M7.5 14.5 C9 18, 15 18, 16.5 14.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" fill="none" />
+                </svg>
+              </div>
+            </div>
+            <div class="formula-info-col">
+              <h4 class="formula-name">KIDS<br />BREAKFAST</h4>
+              <ul class="formula-items">
+                <li>Pancake</li>
+                <li>Crêpe</li>
+                <li>Nutella</li>
+                <li>Yaourt</li>
+                <li>Jus d'orange</li>
+              </ul>
+              <div class="formula-price-box">
+                <span class="price-val">30 DH</span>
+                <span class="price-underline"></span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- BREAKFAST À LA CARTE SECTION (Directly from PDF Pages 1 & 2) -->
+        <div class="alacarte-container" id="alacarte-content-box">
+          <div class="alacarte-header-bar">
+            <div class="alacarte-header-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2.2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <h4>BREAKFAST À LA CARTE</h4>
+            </div>
+            <span class="alacarte-tag">Composition libre</span>
+          </div>
+
+          <div class="alacarte-tables-grid">
+            <!-- Table 1: ŒUFS & MSEMEN -->
+            <div class="menu-list-card">
+              <div class="menu-list-header">
+                <h5>ŒUFS & MSEMEN</h5>
+              </div>
+              <ul class="menu-items-table">
+                <li><span class="item-name">Omelette nature</span><span class="item-price">12 DH</span></li>
+                <li><span class="item-name">Omelette fromage</span><span class="item-price">17 DH</span></li>
+                <li><span class="item-name">Omelette charcuterie</span><span class="item-price">17 DH</span></li>
+                <li><span class="item-name">Omelette khlii</span><span class="item-price">25 DH</span></li>
+                <li><span class="item-name">Œuf au plat</span><span class="item-price">12 DH</span></li>
+                <li><span class="item-name">Chakchouka</span><span class="item-price">23 DH</span></li>
+                <li><span class="item-name">Msemen nature</span><span class="item-price">4 DH</span></li>
+                <li><span class="item-name">Msemen fromage, miel & noix</span><span class="item-price">15 DH</span></li>
+                <li><span class="item-name">Msemen charcuterie</span><span class="item-price">15 DH</span></li>
+                <li><span class="item-name">Msemen beurre & miel</span><span class="item-price">12 DH</span></li>
+                <li><span class="item-name">Msemen Nutella</span><span class="item-price">16 DH</span></li>
+                <li><span class="item-name">Msemen poulet</span><span class="item-price">35 DH</span></li>
+                <li><span class="item-name">Msemen viande</span><span class="item-price">39 DH</span></li>
+                <li><span class="item-name">Msemen merguez</span><span class="item-price">32 DH</span></li>
+              </ul>
+            </div>
+
+            <!-- Table 2: ACCOMPAGNEMENTS & DOUCEURS -->
+            <div class="menu-list-card">
+              <div class="menu-list-header">
+                <h5>ACCOMPAGNEMENTS & DOUCEURS</h5>
+              </div>
+              <ul class="menu-items-table">
+                <li><span class="item-name">Beurre</span><span class="item-price">8 DH</span></li>
+                <li><span class="item-name">Confiture</span><span class="item-price">7 DH</span></li>
+                <li><span class="item-name">Miel</span><span class="item-price">7 DH</span></li>
+                <li><span class="item-name">Fromage Kiri</span><span class="item-price">3 DH</span></li>
+                <li><span class="item-name">Nutella</span><span class="item-price">8 DH</span></li>
+                <li><span class="item-name">Huile d'olive</span><span class="item-price">8 DH</span></li>
+                <li><span class="item-name">Charcuterie</span><span class="item-price">10 DH</span></li>
+                <li><span class="item-name">Olive noire</span><span class="item-price">7 DH</span></li>
+                <li><span class="item-name">Amlou</span><span class="item-price">10 DH</span></li>
+                <li><span class="item-name">Fromage Edam</span><span class="item-price">10 DH</span></li>
+                <li><span class="item-name">Croissant</span><span class="item-price">6 DH</span></li>
+                <li><span class="item-name">Pain aux raisins</span><span class="item-price">7 DH</span></li>
+                <li><span class="item-name">Toast avocat</span><span class="item-price">23 DH</span></li>
+                <li><span class="item-name">Pancake</span><span class="item-price">20 DH</span></li>
+                <li><span class="item-name">Crêpe nature</span><span class="item-price">20 DH</span></li>
+                <li><span class="item-name">Crêpe Nutella</span><span class="item-price">30 DH</span></li>
+                <li><span class="item-name">Crêpe Nutella banane</span><span class="item-price">35 DH</span></li>
+                <li><span class="item-name">Crêpe purée de fruits rouges</span><span class="item-price">35 DH</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- ================= SECTION 2: BOISSONS =========================== -->
+      <!-- ================================================================= -->
+      <section class="menu-main-section" id="section-boissons">
+        <!-- Section Header -->
+        <div class="section-heading-bar">
+          <div class="heading-left">
+            <div class="handwritten-subtitle">
+              <span>Rafraîchissements</span>
+              <svg class="curly-arrow" width="30" height="20" viewBox="0 0 40 20" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round">
+                <path d="M2 15 C15 5, 25 5, 36 12"></path>
+                <path d="M30 6 L37 12 L33 18"></path>
+              </svg>
+            </div>
+            <h3 class="section-title">Boissons & Rafraîchissements</h3>
+            <span class="title-underline"></span>
+          </div>
+        </div>
+
+        <div class="subsections-grid-2col">
+
+          <!-- 1. CAFÉS & BOISSONS CHAUDES -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/drink_hot_coffee.jpg" alt="Cafés et boissons chaudes" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">CAFÉS & BOISSONS CHAUDES</span>
+              </div>
+            </div>
+            <ul class="menu-items-table">
+              <li>
+                <div class="item-name-group">
+                  <span class="item-name">Espresso</span>
+                  <span class="item-note">Aromatisation: Vanille, Cookie, Caramel, Noisette (+4 DH)</span>
+                </div>
+                <span class="item-price">12 DH</span>
+              </li>
+              <li><span class="item-name">Americano</span><span class="item-price">16 DH</span></li>
+              <li><span class="item-name">Cappuccino</span><span class="item-price">18 DH</span></li>
+              <li><span class="item-name">Latte</span><span class="item-price">16 DH</span></li>
+              <li><span class="item-name">Chocolat chaud</span><span class="item-price">18 DH</span></li>
+              <li><span class="item-name">Thé à la menthe</span><span class="item-price">15 DH</span></li>
+              <li><span class="item-name">Americano thé</span><span class="item-price">18 DH</span></li>
+              <li><span class="item-name">Soda</span><span class="item-price">15 DH</span></li>
+              <li><span class="item-name">Eau</span><span class="item-price">-</span></li>
+            </ul>
+          </div>
+
+          <!-- 2. ICED COFFEE -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/cat_boissons.jpg" alt="Iced Coffee" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">ICED COFFEE</span>
+              </div>
+            </div>
+            <ul class="menu-items-table">
+              <li><span class="item-name">Iced Coffee Latte</span><span class="item-price">35 DH</span></li>
+              <li><span class="item-name">Iced Americano</span><span class="item-price">30 DH</span></li>
+              <li><span class="item-name">Iced Vanilla</span><span class="item-price">38 DH</span></li>
+              <li><span class="item-name">Iced Mocha</span><span class="item-price">40 DH</span></li>
+              <li><span class="item-name">Spanish Latte</span><span class="item-price">42 DH</span></li>
+            </ul>
+          </div>
+
+          <!-- 3. MATCHA -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/drink_matcha.jpg" alt="Matcha Latte" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">MATCHA</span>
+              </div>
+            </div>
+            <ul class="menu-items-table">
+              <li><span class="item-name">Matcha Latte</span><span class="item-price">38 DH</span></li>
+              <li><span class="item-name">Strawberry Matcha Latte</span><span class="item-price">42 DH</span></li>
+              <li><span class="item-name">Mango Matcha Latte</span><span class="item-price">42 DH</span></li>
+              <li><span class="item-name">Vanilla Matcha Latte</span><span class="item-price">42 DH</span></li>
+              <li><span class="item-name">Espresso Matcha Latte</span><span class="item-price">45 DH</span></li>
+            </ul>
+          </div>
+
+          <!-- 4. JUS FRAIS -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/drink_orange_juice.jpg" alt="Jus Frais" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">JUS FRAIS</span>
+              </div>
+            </div>
+            <ul class="menu-items-table">
+              <li><span class="item-name">Orange</span><span class="item-price">16 DH</span></li>
+              <li><span class="item-name">Ananas</span><span class="item-price">28 DH</span></li>
+              <li><span class="item-name">Mangue</span><span class="item-price">28 DH</span></li>
+              <li><span class="item-name">Banane</span><span class="item-price">18 DH</span></li>
+              <li><span class="item-name">Fraise</span><span class="item-price">25 DH</span></li>
+            </ul>
+          </div>
+
+          <!-- 5. MOJITOS -->
+          <div class="menu-list-card with-banner-img full-width-card">
+            <div class="card-banner-img-wrap">
+              <img src="/images/drink_mojito.jpg" alt="Mojitos Frais" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">MOJITOS</span>
+              </div>
+            </div>
+            <ul class="menu-items-table horizontal-table">
+              <li><span class="item-name">Classic Mojito</span><span class="item-price">35 DH</span></li>
+              <li><span class="item-name">Strawberry Mojito</span><span class="item-price">40 DH</span></li>
+              <li><span class="item-name">Blueberry Mojito</span><span class="item-price">40 DH</span></li>
+              <li><span class="item-name">Mango Mojito</span><span class="item-price">40 DH</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- ================= SECTION 3: LUNCH & FAST FOOD ================== -->
+      <!-- ================================================================= -->
+      <section class="menu-main-section" id="section-lunch">
+        <!-- Section Header -->
+        <div class="section-heading-bar">
+          <div class="heading-left">
+            <div class="handwritten-subtitle">
+              <span>Gourmandises & Spécialités</span>
+              <svg class="curly-arrow" width="30" height="20" viewBox="0 0 40 20" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round">
+                <path d="M2 15 C15 5, 25 5, 36 12"></path>
+                <path d="M30 6 L37 12 L33 18"></path>
+              </svg>
+            </div>
+            <h3 class="section-title">Lunch & Fast Food</h3>
+            <span class="title-underline"></span>
+          </div>
+        </div>
+
+        <div class="subsections-grid-2col">
+
+          <!-- 1. PIZZAS -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/cat_lunch.jpg" alt="Pizzas Gourmandes" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">PIZZAS</span>
+              </div>
+            </div>
+            <ul class="menu-items-table">
+              <li><span class="item-name">Margherita</span><span class="item-price">39 DH</span></li>
+              <li><span class="item-name">Poulet BBQ</span><span class="item-price">45 DH</span></li>
+              <li><span class="item-name">Beef Lovers</span><span class="item-price">50 DH</span></li>
+              <li><span class="item-name">American</span><span class="item-price">60 DH</span></li>
+              <li><span class="item-name">Pepperoné</span><span class="item-price">55 DH</span></li>
+              <li><span class="item-name">Four Cheese</span><span class="item-price">66 DH</span></li>
+              <li><span class="item-name">Truffata</span><span class="item-price">70 DH</span></li>
+              <li><span class="item-name">Tonno</span><span class="item-price">45 DH</span></li>
+              <li><span class="item-name">Fruits de mer</span><span class="item-price">65 DH</span></li>
+            </ul>
+          </div>
+
+          <!-- 2. PANOZZO SANDWICH & ADD-ONS -->
+          <div class="menu-stack-col">
+            <!-- PANOZZO -->
+            <div class="menu-list-card with-banner-img">
+              <div class="card-banner-img-wrap">
+                <img src="/images/lunch_panozzo.jpg" alt="Panozzo Sandwich" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+                <div class="card-banner-badge">
+                  <span class="banner-title">PANOZZO SANDWICH</span>
+                </div>
+              </div>
+              <ul class="menu-items-table">
+                <li><span class="item-name">Panozzo Chicken</span><span class="item-price">45 DH</span></li>
+                <li><span class="item-name">Panozzo Beef</span><span class="item-price">50 DH</span></li>
+                <li><span class="item-name">Panozzo Calamars</span><span class="item-price">55 DH</span></li>
+                <li><span class="item-name">Panozzo Mexican</span><span class="item-price">65 DH</span></li>
+              </ul>
+            </div>
+
+            <!-- ADD-ONS -->
+            <div class="menu-list-card">
+              <div class="menu-list-header">
+                <h5>ADD-ONS</h5>
+              </div>
+              <ul class="menu-items-table">
+                <li><span class="item-name">Mac & Cheese</span><span class="item-price">12 DH</span></li>
+                <li><span class="item-name">Mozza Sticks (3 pcs)</span><span class="item-price">15 DH</span></li>
+                <li><span class="item-name">Coleslaw</span><span class="item-price">10 DH</span></li>
+                <li><span class="item-name">Frites</span><span class="item-price">10 DH</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 3. BURGERS (SOLO & MENU) -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/hero_burger.jpg" alt="Burgers Gourmets" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">BURGERS</span>
+              </div>
+            </div>
+            <div class="solo-menu-table">
+              <div class="table-columns-header">
+                <span class="col-head-name">VARIÉTÉ</span>
+                <span class="col-head-price">SOLO</span>
+                <span class="col-head-price menu-badge-head">MENU</span>
+              </div>
+              <ul class="solo-menu-list">
+                <li>
+                  <span class="item-title-var">Chicken Burger</span>
+                  <span class="price-solo">35 DH</span>
+                  <span class="price-menu">55 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Beef Mac & Cheese</span>
+                  <span class="price-solo">50 DH</span>
+                  <span class="price-menu">70 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Calamari Burger</span>
+                  <span class="price-solo">60 DH</span>
+                  <span class="price-menu">80 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Fish Burger</span>
+                  <span class="price-solo">60 DH</span>
+                  <span class="price-menu">80 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Mushroom Truffle</span>
+                  <span class="price-solo">70 DH</span>
+                  <span class="price-menu">90 DH</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 4. MEXICAN TACOS (SOLO & MENU) -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/lunch_mexican_tacos.jpg" alt="Mexican Tacos" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">MEXICAN TACOS</span>
+              </div>
+            </div>
+            <div class="solo-menu-table">
+              <div class="table-columns-header">
+                <span class="col-head-name">VARIÉTÉ</span>
+                <span class="col-head-price">SOLO</span>
+                <span class="col-head-price menu-badge-head">MENU</span>
+              </div>
+              <ul class="solo-menu-list">
+                <li>
+                  <span class="item-title-var">Carnitas Tacos</span>
+                  <span class="price-solo">39 DH</span>
+                  <span class="price-menu">49 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Pescado Tacos</span>
+                  <span class="price-solo">45 DH</span>
+                  <span class="price-menu">55 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Gambas Tacos</span>
+                  <span class="price-solo">60 DH</span>
+                  <span class="price-menu">70 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Pollo Tacos</span>
+                  <span class="price-solo">35 DH</span>
+                  <span class="price-menu">45 DH</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 5. FRENCH TACOS (SOLO & MENU) -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/lunch_french_tacos.jpg" alt="French Tacos" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">FRENCH TACOS</span>
+              </div>
+            </div>
+            <div class="solo-menu-table">
+              <div class="table-columns-header">
+                <span class="col-head-name">VARIÉTÉ</span>
+                <span class="col-head-price">SOLO</span>
+                <span class="col-head-price menu-badge-head">MENU</span>
+              </div>
+              <ul class="solo-menu-list">
+                <li>
+                  <span class="item-title-var">Chicken Mac & Cheese</span>
+                  <span class="price-solo">35 DH</span>
+                  <span class="price-menu">55 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Viande hachée</span>
+                  <span class="price-solo">40 DH</span>
+                  <span class="price-menu">60 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Fish Tartar</span>
+                  <span class="price-solo">50 DH</span>
+                  <span class="price-menu">70 DH</span>
+                </li>
+                <li>
+                  <span class="item-title-var">Crispy Mix Fried</span>
+                  <span class="price-solo">55 DH</span>
+                  <span class="price-menu">75 DH</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 6. LOADED FRIES -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/lunch_loaded_fries.jpg" alt="Loaded Fries" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">LOADED FRIES</span>
+              </div>
+            </div>
+            <ul class="menu-items-table">
+              <li><span class="item-name">Chicken BBQ Fries</span><span class="item-price">30 DH</span></li>
+              <li><span class="item-name">Mexican Fries</span><span class="item-price">35 DH</span></li>
+              <li><span class="item-name">Truffle Parmesan Fries</span><span class="item-price">40 DH</span></li>
+              <li><span class="item-name">Cheese Fries</span><span class="item-price">20 DH</span></li>
+            </ul>
+          </div>
+
+          <!-- 7. CRISPY SPECIALTIES -->
+          <div class="menu-list-card with-banner-img">
+            <div class="card-banner-img-wrap">
+              <img src="/images/lunch_crispy.jpg" alt="Crispy Specialties" class="card-banner-img" loading="lazy" referrerPolicy="no-referrer" />
+              <div class="card-banner-badge">
+                <span class="banner-title">CRISPY</span>
+              </div>
+            </div>
+            <ul class="menu-items-table">
+              <li><span class="item-name">Chicken Fried (2 pcs)</span><span class="item-price">25 DH</span></li>
+              <li><span class="item-name">Korean Fried Chicken (2 pcs)</span><span class="item-price">30 DH</span></li>
+              <li><span class="item-name">Calamars Fried</span><span class="item-price">50 DH</span></li>
+              <li><span class="item-name">Fish & Chips</span><span class="item-price">50 DH</span></li>
+              <li><span class="item-name">Corn Dog</span><span class="item-price">29 DH</span></li>
+            </ul>
+          </div>
+
+          <!-- 8. SAUCES -->
+          <div class="menu-list-card">
+            <div class="menu-list-header">
+              <h5>SAUCES</h5>
+            </div>
+            <ul class="menu-items-table sauce-grid-table">
+              <li><span class="item-name">Ranch</span><span class="item-price">5 DH</span></li>
+              <li><span class="item-name">Pang Pang Sauce</span><span class="item-price">5 DH</span></li>
+              <li><span class="item-name">Mayonnaise</span><span class="item-price">3 DH</span></li>
+              <li><span class="item-name">Sweet Chili</span><span class="item-price">5 DH</span></li>
+              <li><span class="item-name">Tartar</span><span class="item-price">5 DH</span></li>
+              <li><span class="item-name">Honey Mustard</span><span class="item-price">5 DH</span></li>
+              <li><span class="item-name">Cheese Sauce</span><span class="item-price">5 DH</span></li>
+              <li><span class="item-name">BBQ</span><span class="item-price">5 DH</span></li>
+              <li><span class="item-name">Ketchup</span><span class="item-price">3 DH</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ================================================================= -->
+      <!-- ================= SECTION 4: DESSERTS =========================== -->
+      <!-- ================================================================= -->
+      <section class="menu-main-section" id="section-desserts">
+        <!-- Section Header -->
+        <div class="section-heading-bar">
+          <div class="heading-left">
+            <div class="handwritten-subtitle">
+              <span>Douceurs Sucrées</span>
+              <svg class="curly-arrow" width="30" height="20" viewBox="0 0 40 20" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round">
+                <path d="M2 15 C15 5, 25 5, 36 12"></path>
+                <path d="M30 6 L37 12 L33 18"></path>
+              </svg>
+            </div>
+            <h3 class="section-title">Desserts</h3>
+            <span class="title-underline"></span>
+          </div>
+        </div>
+
+        <!-- Dessert Showcase Banner Card (Strictly adhering to instructions: no fake items/prices) -->
+        <div class="desserts-showcase-card">
+          <div class="dessert-img-col">
+            <img src="/images/cat_desserts.jpg" alt="Desserts Gourmands" class="dessert-showcase-img" loading="lazy" referrerPolicy="no-referrer" />
+          </div>
+          <div class="dessert-text-col">
+            <span class="dessert-badge">Fait Maison</span>
+            <h4 class="dessert-main-heading">Découvrez nos desserts</h4>
+            <p class="dessert-desc-text">
+              Une sélection raffinée de brownies chauds accompagnés de glace vanille onctueuse, coulis de chocolat fondant et douceurs préparées chaque jour avec passion.
+            </p>
+            <div class="dessert-note-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span>Demandez les suggestions et douceurs du jour à notre équipe.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= 5. QR CODE SECTION ================= -->
+      <section class="qr-code-section" id="qr-code-section">
+        <div class="qr-left-wrapper">
+          <!-- QR Code Container -->
+          <div class="qr-box">
+            <svg class="qr-svg-graphic" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Corner Finder 1 (Top-Left) -->
+              <rect x="4" y="4" width="26" height="26" rx="4" stroke="#0B2545" stroke-width="4.5" fill="none" />
+              <rect x="11" y="11" width="12" height="12" rx="2" fill="#0B2545" />
+
+              <!-- Corner Finder 2 (Top-Right) -->
+              <rect x="70" y="4" width="26" height="26" rx="4" stroke="#0B2545" stroke-width="4.5" fill="none" />
+              <rect x="77" y="11" width="12" height="12" rx="2" fill="#0B2545" />
+
+              <!-- Corner Finder 3 (Bottom-Left) -->
+              <rect x="4" y="70" width="26" height="26" rx="4" stroke="#0B2545" stroke-width="4.5" fill="none" />
+              <rect x="11" y="77" width="12" height="12" rx="2" fill="#0B2545" />
+
+              <!-- QR Code Pattern Matrix Dots -->
+              <rect x="36" y="6" width="5" height="5" fill="#0B2545" />
+              <rect x="45" y="6" width="5" height="5" fill="#0B2545" />
+              <rect x="54" y="6" width="5" height="5" fill="#0B2545" />
+              <rect x="40" y="15" width="5" height="5" fill="#0B2545" />
+              <rect x="50" y="15" width="5" height="5" fill="#0B2545" />
+              <rect x="36" y="24" width="5" height="5" fill="#0B2545" />
+              <rect x="58" y="24" width="5" height="5" fill="#0B2545" />
+
+              <rect x="6" y="36" width="5" height="5" fill="#0B2545" />
+              <rect x="16" y="36" width="5" height="5" fill="#0B2545" />
+              <rect x="25" y="40" width="5" height="5" fill="#0B2545" />
+              <rect x="6" y="48" width="5" height="5" fill="#0B2545" />
+              <rect x="15" y="54" width="5" height="5" fill="#0B2545" />
+              <rect x="25" y="50" width="5" height="5" fill="#0B2545" />
+              <rect x="6" y="58" width="5" height="5" fill="#0B2545" />
+
+              <rect x="70" y="36" width="5" height="5" fill="#0B2545" />
+              <rect x="80" y="40" width="5" height="5" fill="#0B2545" />
+              <rect x="89" y="36" width="5" height="5" fill="#0B2545" />
+              <rect x="74" y="50" width="5" height="5" fill="#0B2545" />
+              <rect x="84" y="54" width="5" height="5" fill="#0B2545" />
+
+              <rect x="36" y="70" width="5" height="5" fill="#0B2545" />
+              <rect x="48" y="70" width="5" height="5" fill="#0B2545" />
+              <rect x="58" y="74" width="5" height="5" fill="#0B2545" />
+              <rect x="42" y="80" width="5" height="5" fill="#0B2545" />
+              <rect x="52" y="86" width="5" height="5" fill="#0B2545" />
+              <rect x="68" y="80" width="5" height="5" fill="#0B2545" />
+              <rect x="78" y="86" width="5" height="5" fill="#0B2545" />
+              <rect x="88" y="76" width="5" height="5" fill="#0B2545" />
+              <rect x="88" y="88" width="5" height="5" fill="#0B2545" />
+
+              <!-- Center White Shield with CRISPYO C Emblem -->
+              <rect x="34" y="34" width="32" height="32" rx="6" fill="#FFFFFF" stroke="#126BEB" stroke-width="1.8" />
+              <path d="M56 42 C46 42 41 46 41 50 C41 54 46 58 56 58 C60 58 63 56 65 54 L62 50 C60 52 58 53 55 53 C49 53 46 51 46 50 C46 49 49 47 55 47 C58 47 60 48 62 50 L65 46 C63 44 60 42 56 42 Z" fill="#126BEB" />
+              <rect x="37" y="45" width="5" height="1.8" rx="0.9" fill="#126BEB" />
+              <rect x="36" y="49" width="6" height="1.8" rx="0.9" fill="#126BEB" />
+              <rect x="38" y="53" width="4" height="1.8" rx="0.9" fill="#126BEB" />
+            </svg>
+          </div>
+
+          <!-- Text Next to QR -->
+          <div class="qr-text-info">
+            <div class="scan-here-handwritten">
+              <span>Scannez ici</span>
+              <svg class="scan-curve-arrow" width="32" height="16" viewBox="0 0 40 20" fill="none" stroke="#126BEB" stroke-width="2" stroke-linecap="round">
+                <path d="M36 4 C24 16, 12 16, 4 8"></path>
+                <path d="M4 16 L3 7 L12 8"></path>
+              </svg>
+            </div>
+            <h3 class="qr-main-title">
+              Scannez le <span class="blue-highlight">QR Code</span><br />
+              pour accéder à notre menu
+            </h3>
+            <span class="qr-underline"></span>
+          </div>
+        </div>
+
+        <!-- 4 Feature Columns -->
+        <div class="qr-features-grid">
+          <!-- Col 1 -->
+          <div class="qr-feature-col" id="feat-simple">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="3" ry="3"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18" stroke-width="2.5"></line>
+              </svg>
+            </div>
+            <span class="feature-name">Simple</span>
+            <span class="feature-desc">Accès en 1 scan</span>
+          </div>
+
+          <div class="feat-divider"></div>
+
+          <!-- Col 2 -->
+          <div class="qr-feature-col" id="feat-rapide">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v2"></path>
+                <path d="m4.93 4.93 1.41 1.41"></path>
+                <path d="M2 12h2"></path>
+                <path d="M20 12h2"></path>
+                <path d="m19.07 4.93-1.41 1.41"></path>
+                <path d="M12 6a6 6 0 0 0-6 6c0 2.2.89 4.19 2.34 5.66"></path>
+                <path d="M17.66 17.66A5.96 5.96 0 0 0 18 12a6 6 0 0 0-6-6"></path>
+                <line x1="12" y1="12" x2="15" y2="9"></line>
+              </svg>
+            </div>
+            <span class="feature-name">Rapide</span>
+            <span class="feature-desc">Menu à jour</span>
+          </div>
+
+          <div class="feat-divider"></div>
+
+          <!-- Col 3 -->
+          <div class="qr-feature-col" id="feat-eco">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+              </svg>
+            </div>
+            <span class="feature-name">Écologique</span>
+            <span class="feature-desc">Moins de papier</span>
+          </div>
+
+          <div class="feat-divider"></div>
+
+          <!-- Col 4 -->
+          <div class="qr-feature-col" id="feat-merci">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#126BEB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+              </svg>
+            </div>
+            <span class="feature-name">Merci !</span>
+            <span class="feature-desc">Bon appétit</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Bar -->
+      <footer class="site-footer">
+        <p class="footer-copy">© CRISPYO • Une carte gourmande et généreuse • Prix en Dirhams (DH)</p>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "CRISPYO - Menu Digital",
+  "description": "Menu digital officiel CRISPYO : Petits-déjeuners, Boissons & Rafraîchissements, Lunch & Fast Food, Desserts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
